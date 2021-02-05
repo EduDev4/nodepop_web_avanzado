@@ -16,6 +16,8 @@
 - Cambiado el puerto SSH a uno diferente al 22
 - Creados 2 usuarios. Uno para cada aplicación.
 - Deshabilitados los accesos por contraseña de los usuarios de aplicación
+- Actualizados todos los paquetes con sudo apt update / sudo apt upgrade
+- Instalado fail2ban
 
 ---
 ---
