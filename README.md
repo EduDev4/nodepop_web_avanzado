@@ -1,5 +1,29 @@
+# Practica Despliegue de Servidores  
 
-# NodePop Avanzado
+**Parte 1** - Accediendo por DNS:   
+- App Node Avanzado: http://ec2-54-191-102-249.us-west-2.compute.amazonaws.com/  
+- Estático: http://ec2-54-191-102-249.us-west-2.compute.amazonaws.com/images/langs/en.png   
+- *Cabecera X-Owner: edudev4
+- *Con Supervisor y mongoDB configurado para levantarse al iniciar la máquina.  
+- *Recibiendo por el puerto 80 y redirigiendo con Nginx a Node por el :3000
+
+**Parte 2** - Default Server:   
+- App React: http://54.191.102.249/  
+- *Sin backend  
+
+**Pasos adicionales:**
+- Eliminada la opción de mostrar versión de Nginx
+- Cambiado el puerto SSH a uno diferente al 22
+- Creados 2 usuarios. Uno para cada aplicación.
+- Deshabilitados los accesos por contraseña de los usuarios de aplicación
+
+---
+---
+---
+
+## Practica Node Avanzado:       
+     
+## NodePop Avanzado
 
 [Demo](/anuncios) of the methods (this link works only if you run the project)
 
